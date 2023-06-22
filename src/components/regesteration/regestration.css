@@ -1,0 +1,62 @@
+.form {
+  position:fixed;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  border: 1px solid #fff;
+  border-radius: 25px;
+  justify-content: space-evenly;
+}
+.form .input{
+  box-shadow: inset 3px 3px 10px  #777 ,inset -3px -3px 10px 10px #fff !important;
+  border-radius: 25px;
+  text-align: center;
+  border: none;
+}
+.form .input.false{
+  border: 1px solid red;
+}
+.form .check.false{
+  color: red;
+}
+.form .input:focus{
+    box-shadow: inset 3px 3px 10px  #777 ,inset -3px -3px 10px 10px #fff !important;
+}
+.btn-log-sign {
+  border: 1px solid #fff !important;
+  color: #fff !important;
+}
+.btn-log-sign .reg{
+    color: #fff;
+    text-decoration: none;
+}
+.btn-log-sign:hover{
+    background-color: #fff !important;
+}
+.btn-log-sign:hover .reg{
+  color: rgb(8, 58, 116) !important;
+}
+
+.link{
+    color: #fff;
+}
+.link:hover{
+    opacity: .5;
+}
+@media (max-width: 480px) {
+    .form {
+        transform: translateY(-50%);
+        top: 50%;
+        left: 10%;
+        right: 10%;
+      }
+}
+@media (max-width: 310px) {
+    .form {
+        transform: translateY(-50%);
+        top: 50%;
+        left: 0%;
+        right: 0%;
+        border: none;
+      }
+}

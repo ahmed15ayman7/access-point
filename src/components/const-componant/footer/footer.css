@@ -1,0 +1,43 @@
+.footer-main {
+  background-color: rgba(0, 0, 0, 0.3);
+  border-radius: 25px;
+
+  color: #fff;
+}
+
+.footer-links-grand {
+  background: rgb(18, 134, 163) !important;
+  width: 2.9rem !important;
+  border-radius: 27px;
+  position: fixed;
+  bottom: 3%;
+  right: 3%;
+  height: 90px;
+  overflow: hidden;
+  transition: all 0.5s;
+  box-shadow: 0px 40px 80px 0px rgba(0, 0, 0, 0.81),
+    inset 0px -10px 20px 0px rgba(0, 0, 0, 0.3),
+    0px -10px 20px 0px rgba(0, 0, 0, 0.3), 0px 10px 20px 0px rgba(0, 0, 0, 0.3);
+  z-index: 1000;
+}
+.footer-links-grand::after {
+  content: "";
+  position: absolute;
+  background-color: rgba(255, 255, 255, 0.6);
+  height: 15px;
+  width: 15px;
+  clip-path: polygon(0% 100%, 50% 20%, 100% 100%);
+  font-weight: bolder;
+  left: 50%;
+  bottom: 10%;
+  transform: translateX(-50%);
+  transition: all 0.5s;
+}
+.footer-links-grand:hover {
+  height: 300px;
+  cursor: grab;
+  border-radius: 25px;
+}
+.footer-links-grand:hover::after {
+  transform: translateX(-50%) rotate(180deg);
+}

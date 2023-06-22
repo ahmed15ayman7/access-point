@@ -1,0 +1,13 @@
+export let GetAllProducts = "https://fakestoreapi.com/products";
+export let GetAllCategories = "https://fakestoreapi.com/products/categories";
+export let AddNewProduct = "https://fakestoreapi.com/products";
+export let UpdateProduct = "https://fakestoreapi.com/products/";
+export let DeleteProduct = "https://fakestoreapi.com/products/";
+export let GetAllCartsUser = "https://fakestoreapi.com/carts/user/";
+export let AddNewCart = "https://fakestoreapi.com/carts";
+export let UpdateCart = "https://fakestoreapi.com/carts/";
+export let DeleteCart = "https://fakestoreapi.com/carts/";
+export let GetAllUsers = "https://fakestoreapi.com/users";
+export let AddNewUser = "https://fakestoreapi.com/users";
+export let UpdateUsers = "https://fakestoreapi.com/users/";
+export let LoginUsers = "https://fakestoreapi.com/auth/login";

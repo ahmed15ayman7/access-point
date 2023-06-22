@@ -1,0 +1,131 @@
+/* ? Switch */
+/* ? Switch */
+/* ? Switch */
+
+* {
+  box-sizing: border-box;
+}
+
+.switch-form {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.switch-form div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.switch-form h4 {
+  color: #fff;
+}
+.switch-form input {
+  border-radius: 20px;
+  box-shadow: inset 3px 3px 10px #777, inset -3px -3px 10px 10px #fff;
+}
+
+.switch {
+  width: 50px;
+  height: 25px;
+  background-color: rgba(255, 255, 255, 0.2);
+  display: flex;
+  justify-content: flex-start;
+  border-radius: 50px;
+  padding: 0 3px;
+  cursor: pointer;
+  align-items: center;
+}
+
+.switch.true {
+  position: relative;
+  justify-content: flex-end;
+  background-color: #fff !important;
+}
+.switch.true .handle {
+  background-color: rgb(18, 134, 163);
+}
+.switch.true::after {
+  content: "\2714";
+  position: absolute;
+  filter: invert(1);
+  color: #fff !important;
+  left: -50%;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.handle {
+  width: 20px;
+  height: 20px;
+  background-color: white;
+  border-radius: 40px;
+}
+
+/* ! endSwitch */
+/* ! endSwitch */
+/* ! endSwitch */
+/* !-------------------------------------- */
+/* ?-------------------------------------- */
+/* ? formFilter */
+/* ? formFilter */
+/* ? formFilter */
+.formFilter {
+  position: relative;
+}
+
+/* ! formFilter */
+/* ! formFilter */
+/* ! formFilter */
+@media (max-width: 1200px) {
+
+
+}
+@media (max-width: 991px) {
+  .formFilter {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .formFilter .option-filter {
+    width: 100%;
+    padding: 10px;
+    margin: 0 !important;
+  }
+
+  .formFilter .option-filter .op-fl {
+    width: 100%;
+  }
+  .formFilter::after {
+    top: -5%;
+  }
+}
+@media (max-width: 575px) {
+  .formFilter .option-filter {
+    width: 100%;
+    padding: 10px;
+    margin: 0 !important;
+  }
+  .formFilter .option-filter.fl {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .formFilter .option-filter .op-fl {
+    width: 100%;
+  }
+}
+@media (max-width: 340px) {
+  .formFilter {
+    display: flex;
+    flex-direction: column;
+  }
+  .formFilter .option-filter {
+    width: 100%;
+    padding: 10px;
+    margin: 0 !important;
+  }
+  .formFilter .option-filter.fl {
+    width: 100%;
+  }
+}

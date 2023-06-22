@@ -1,0 +1,39 @@
+.heart-d{
+    width: 10%;
+}
+.heart-d i.clicked{
+    color: #c0e4f8 !important;
+    transform: scale(1.2);
+}
+
+.heart-d i:hover{
+    
+    animation:identifier 1s linear infinite;
+}
+.divstar{
+    width: 20%;
+}
+.imgUser{
+    background: rgba(0, 0, 0, .05);
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+}
+@keyframes identifier {
+    0%{
+        transform:scale(1.4)  ;
+    }50%{
+        transform:scale(1.6)  ;
+        
+    }100%{
+        transform:scale(1.2)  ;
+
+    }
+}
+@media (max-width:500px) {
+    .heart-d{
+        width: 20%;
+    }
+    .divstar{
+        width: 50%;
+    }
+}

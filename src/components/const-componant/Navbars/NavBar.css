@@ -1,0 +1,36 @@
+.nav-grand {
+  background: rgb(2, 77, 118);
+  border-radius: 25px;
+  position: fixed;
+  top: 3%;
+  left: 3%;
+  width: 100px !important;
+  height: 2.9rem !important;
+  overflow: hidden;
+  transition: all 0.5s;
+  box-shadow: 0px 40px 80px 0px rgba(0, 0, 0, 0.81),
+    inset 0px -10px 20px 0px rgba(0, 0, 0, 0.3),
+    0px -10px 20px 0px rgba(0, 0, 0, 0.3), 0px 10px 20px 0px rgba(0, 0, 0, 0.3);
+  z-index: 1000 !important;
+}
+.nav-grand::after {
+  content: "";
+  position: absolute;
+  background-color: rgba(255, 255, 255, 0.6);
+  height: 15px;
+  width: 15px;
+  clip-path: polygon(0% 100%, 50% 20%, 100% 100%);
+  font-weight: bolder;
+  left: 10%;
+  top: 50%;
+  transform: translateY(-50%) rotate(90deg);
+  transition: all 0.5s;
+}
+.nav-grand:hover {
+  cursor: grab;
+  width: 250px !important;
+  border-radius: 25px;
+}
+.nav-grand:hover:after {
+  transform: translateY(-50%) rotate(270deg);
+}

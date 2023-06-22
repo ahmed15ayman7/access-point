@@ -1,0 +1,28 @@
+.pagination .page-item .page-link {
+  background-color: rgba(255, 255, 255, 0.1);
+  color: #fff;
+}
+.pagination .page-item.active .page-link {
+  background-color: #fff !important;
+  color: rgb(8, 58, 116);
+  border-color: #fff;
+}
+.pagination .page-item.active .page-link:focus,
+.pagination .page-item .page-link:focus {
+  box-shadow: none !important;
+}
+@media (max-width: 991px) {
+  .pagination {
+    transform: scale(1);
+  }
+}
+@media (max-width: 575px) {
+  .pagination {
+    transform: scale(0.8);
+  }
+}
+@media (max-width: 340px) {
+  .pagination {
+    transform: scale(0.8);
+  }
+}

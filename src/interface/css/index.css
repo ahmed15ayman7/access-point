@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@600;700&family=Playfair+Display:wght@400;500;600;700&display=swap');
+body {
+  margin: 0;
+  font-family: 'Playfair Display', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+*{
+  border: none;
+  outline: none;
+  box-sizing: border-box;
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+[type='number']{
+  font-family: sans-serif;
+}
+.btn-more-2{
+    color: rgb(18, 134, 163) !important;
+    border: 1px solid #ffffff !important;
+    box-shadow: inset 1px 1px 15px 10px rgb(255, 255, 255), -1px -1px 15px #777, 1px 1px 10px  #fff !important;
+    background-color: #d1d0d0 !important;
+    transition: all .4s linear;
+  }
+  .btn-more-2[disabled]{
+    background-color: #fff !important ;
+    color:rgb(18, 134, 163);
+  }
+  .btn-more-2:hover {
+  background-color: transparent !important;
+  transform: scale(1.1);
+  box-shadow: inset 1px 1px 15px #777, -1px -1px 15px #777, 1px 1px 10px  #fff !important;
+  color: #ffffff !important;
+}
+.btn-more-2 >*{
+  color: rgb(18, 134, 163) !important;
+}
+.btn-more-2:hover >*{
+  color: #ffffff !important;
+}
+.btn-delete:hover{
+  box-shadow:  1px 1px 15px rgb(193, 0, 0), -1px -1px 15px #777, 1px 1px 10px  #fff !important;
+    transform: scale(1.1);
+    background-color: rgb(193, 0, 0) !important;
+  }
+.btn-delete {
+  box-shadow: inset 1px 1px 15px #777, -1px -1px 15px #777, 1px 1px 10px  #fff !important;
+  color: #ffffff !important;
+  border: 1px solid #ffffff !important;
+  
+  transition: all .2s linear;
+}
+.reactEasyCrop_Container {
+  position: absolute;
+  top: 40% !important;
+  left: 25% !important;
+  right: 25% !important;
+  bottom: 10% !important;
+}
+
+

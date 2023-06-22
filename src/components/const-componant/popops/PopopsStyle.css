@@ -1,0 +1,32 @@
+.popops {
+  position: absolute;
+  right: 0;
+  top: 0;
+  left: 0;
+}
+.popops .popos-toast {
+  position: relative;
+  overflow: hidden;
+}
+.popops .popos-toast .animation {
+  position: absolute;
+  height: 5px;
+  width: 0%;
+  bottom: 0;
+  left: 0;
+  background-image: linear-gradient(
+    90deg,
+    rgb(18, 134, 163),
+    rgb(2, 77, 118),
+    rgb(8, 58, 116)
+  );
+  animation: animate 3s ease;
+}
+@keyframes animate {
+  from {
+    width: 0%;
+  }
+  to {
+    width: 100%;
+  }
+}

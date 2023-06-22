@@ -1,0 +1,21 @@
+.btn-close {
+  filter: invert(1) grayscale(100%) brightness(200%) !important;
+}
+.nav-link {
+  color: #c4c4c4 !important;
+  font-weight: bold;
+}
+
+.nav-link:focus,
+.nav-link:hover {
+  color: #ffffff !important;
+}
+.navbar-toggler,.navbar-toggler:focus{
+  outline: none !important;
+  box-shadow: none !important;
+  border: none !important;
+  
+}
+.navbar-toggler .navbar-toggler-icon{
+  filter: invert(1) grayscale(100%) brightness(200%) !important;
+}

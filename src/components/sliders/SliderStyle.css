@@ -1,0 +1,7 @@
+.slide-more {
+  background: rgba(0, 0, 0, 0.3);
+  height: 60vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

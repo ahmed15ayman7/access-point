@@ -1,0 +1,144 @@
+.card-product {
+  position: relative;
+  background-color: #eee;
+  box-shadow: inset 3px 3px 10px #777, inset -3px -3px 10px 10px #fff;
+  transition: all 0.31s linear;
+  height: 100%;
+}
+.card-product:hover {
+  transform: scale(1.029);
+}
+.card-product .img {
+  height: 30vh;
+}
+.name-product {
+  height: 13vh !important;
+}
+.heart-and-cart {
+  display: flex;
+  justify-content: space-between;
+}
+.heart-and-cart i {
+  cursor: pointer;
+  pointer-events: all;
+}
+.heart-and-cart i.clicked {
+  color: #024d76 !important;
+  transform: scale(1.2);
+}
+
+.heart-and-cart i:hover {
+  animation: identifier 1s linear infinite;
+}
+@keyframes identifier {
+  0% {
+    transform: scale(1.4);
+  }
+  50% {
+    transform: scale(1.6);
+  }
+  100% {
+    transform: scale(1.2);
+  }
+}
+.card-category {
+  background-color: #eee;
+  box-shadow: inset 3px 3px 10px #777, inset -3px -3px 10px 10px #fff;
+  border-radius: 50%;
+}
+.card-category img {
+  height: 20vh;
+  border-radius: 50%;
+}
+.name-category {
+  color: #fff;
+  cursor: pointer;
+}
+
+.card-product .price {
+  font-family: "Helvetica Neue", sans-serif;
+}
+.div-category {
+  transition: all 0.31s linear;
+}
+.div-category:hover {
+  transform: scale(1.1);
+}
+.discount {
+  cursor: pointer;
+  border-radius: 5px;
+  box-shadow: 0px 0px 3px #fff;
+  background: linear-gradient(
+    90deg,
+    rgba(0, 0, 0, 0.1),
+    rgba(0, 0, 0, 0.1),
+    rgba(255, 255, 255, 0.2),
+    rgba(0, 0, 0, 0.1),
+    rgba(0, 0, 0, 0.1)
+  ) !important;
+}
+.discount h4 {
+  color: #fff;
+}
+.discount .img {
+  border-radius: 25%;
+  width: 200px;
+  height: 200px;
+}
+.card-Brand {
+  overflow: hidden;
+  position: relative;
+  background-color: #eee;
+  box-shadow: inset 3px 3px 10px #777, inset -3px -3px 10px 10px #fff;
+  transition: all 0.3s linear;
+  cursor: pointer;
+}
+.card-Brand::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 50%;
+  bottom: 0;
+  z-index: 3;
+  background-color: rgba(2, 77, 118, 0.7);
+  transform: translateX(-100%);
+  transition: all 0.21s linear;
+}
+.card-Brand::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 50%;
+  bottom: 0;
+  z-index: 3;
+  background-color: rgba(2, 77, 118, 0.7);
+  transform: translateX(100%);
+  transition: all 0.21s linear;
+}
+.card-Brand:hover::after {
+  transform: translateX(0%);
+}
+.card-Brand:hover::before {
+  transform: translateX(0%);
+}
+.card-Brand:hover {
+  transform: scale(1.1);
+}
+.card-Brand img {
+  height: 15vh;
+}
+.card-Brand h5 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 50%;
+  right: 0;
+  z-index: 4;
+  transform: translateY(-100%);
+  transition: all 0.31s linear;
+}
+.card-Brand:hover h5 {
+  transform: translateY(100%);
+}
