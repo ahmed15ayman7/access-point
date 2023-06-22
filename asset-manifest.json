@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/access-point/static/css/main.e7212529.css",
+    "main.js": "/access-point/static/js/main.96c478f3.js",
+    "static/js/787.d04de942.chunk.js": "/access-point/static/js/787.d04de942.chunk.js",
+    "static/media/facebook-like-sound-effect-prosounds-128-kbps_avrdZVPN.mp3": "/access-point/static/media/facebook-like-sound-effect-prosounds-128-kbps_avrdZVPN.c9916f88f6c72900b8c5.mp3",
+    "static/media/defLogo.png": "/access-point/static/media/defLogo.09b8af55ffb004ffbe43.png",
+    "static/media/errorSound.mp3": "/access-point/static/media/errorSound.904d94dd468f80377a57.mp3",
+    "static/media/likeSound.mp3": "/access-point/static/media/likeSound.913c382b6f1be5cde9df.mp3",
+    "static/media/logo.png": "/access-point/static/media/logo.e2ead29c41d14fb4c0ad.png",
+    "static/media/doneSound.mp3": "/access-point/static/media/doneSound.c2411e1b0642e17ae676.mp3",
+    "static/media/bgLogo.png": "/access-point/static/media/bgLogo.483214b5089d5da0c46e.png",
+    "static/media/waterSound.mp3": "/access-point/static/media/waterSound.64f399b897dddf55df4c.mp3",
+    "static/media/star-icon.glb": "/access-point/static/media/star-icon.42ca0d048f4abafac440.glb",
+    "static/media/hover.m4a": "/access-point/static/media/hover.de29d75e60577cfb3b7e.m4a",
+    "index.html": "/access-point/index.html",
+    "main.e7212529.css.map": "/access-point/static/css/main.e7212529.css.map",
+    "main.96c478f3.js.map": "/access-point/static/js/main.96c478f3.js.map",
+    "787.d04de942.chunk.js.map": "/access-point/static/js/787.d04de942.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e7212529.css",
+    "static/js/main.96c478f3.js"
+  ]
+}
