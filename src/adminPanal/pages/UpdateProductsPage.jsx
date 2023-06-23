@@ -169,7 +169,7 @@
                 <Button
                   className="btn-more"
                   variant=""
-                  onClick={()=>navigate('/products')}
+                  onClick={()=>navigate('/dashboard/products')}
                   style={{ border: "none" }}>
                   Products
                 </Button>
