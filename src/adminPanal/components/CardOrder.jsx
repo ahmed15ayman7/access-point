@@ -32,7 +32,7 @@ function CardOrder(props) {
         props.col ? props.col : 12
       } mt-3 mb-3`}
       ref={first}>
-      <Card className="card-product" style={{cursor:'pointer'}} onClick={e=>navigate('/order/'+props.id)}>
+      <Card className="card-product" style={{cursor:'pointer'}} onClick={e=>navigate('/dashboard/order/'+props.id)}>
         <Card.Img variant="top" className="img" src={props.img} />
         <Card.Body>
           <Card.Text className=""style={{color: "#000000"}}>
