@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/access-point/static/css/main.e7212529.css",
-    "main.js": "/access-point/static/js/main.96c478f3.js",
+    "main.js": "/access-point/static/js/main.685e20ab.js",
     "static/js/787.d04de942.chunk.js": "/access-point/static/js/787.d04de942.chunk.js",
     "static/media/facebook-like-sound-effect-prosounds-128-kbps_avrdZVPN.mp3": "/access-point/static/media/facebook-like-sound-effect-prosounds-128-kbps_avrdZVPN.c9916f88f6c72900b8c5.mp3",
     "static/media/defLogo.png": "/access-point/static/media/defLogo.09b8af55ffb004ffbe43.png",
@@ -15,11 +15,11 @@
     "static/media/hover.m4a": "/access-point/static/media/hover.de29d75e60577cfb3b7e.m4a",
     "index.html": "/access-point/index.html",
     "main.e7212529.css.map": "/access-point/static/css/main.e7212529.css.map",
-    "main.96c478f3.js.map": "/access-point/static/js/main.96c478f3.js.map",
+    "main.685e20ab.js.map": "/access-point/static/js/main.685e20ab.js.map",
     "787.d04de942.chunk.js.map": "/access-point/static/js/787.d04de942.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e7212529.css",
-    "static/js/main.96c478f3.js"
+    "static/js/main.685e20ab.js"
   ]
 }
