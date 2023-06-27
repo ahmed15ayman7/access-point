@@ -92,7 +92,7 @@ function CardProduct(props) {
             )}
           </Card.Title>
 
-          <Card.Text className="name-product" style={{ overflow: "scroll" }}>
+          <Card.Text className="name-product" style={{ overflow: "auto" }}>
             <Link
               to={`/product-details/${props.id}`}
               onClick={() => {
