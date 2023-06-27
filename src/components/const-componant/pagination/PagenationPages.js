@@ -13,7 +13,7 @@ function PagenationPages(props) {
         onPageChange={(e) => props.handlePageClick(e)}
         onClick={() => Like2Play()}
         pageRangeDisplayed={5}
-        pageCount={+props.Pagination}
+        pageCount={Math.ceil(props.Pagination)}
         previousLabel="<"
         renderOnZeroPageCount={null}
         pageClassName={"page-item"}

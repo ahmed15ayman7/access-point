@@ -39,6 +39,19 @@ Instead, it will copy all the configuration files and the transitive dependencie
 
 You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
+## post linkedIn mmmmmmmmmmmmmmm
+I am very happy with the completion of this project, which took a lot of effort and time. I hope you like it, and I would be very grateful for you to comment on it and go through an experience that I would like to be wonderful for you. Thank you. 😍❤️❤️❤️
+it is about online store E-Commerce 
+In this project I used react ,react routing,redux,reactBootstrap,framer mostion
+(framework styling),Api store, firebase, axios.
+This project works on me
+Displaying and selling products in a very simple and smooth way. The user logs in. There is also a control panel for the admin. There are also comments on the products on the product information page and the filter system for the products.
+live demo :https://ahmed15ayman7.github.io/access-point/
+repo:https://github.com/ahmed15ayman7/access-point.git
+#reactBootstrap #react #framerMotion #redux #api #store #ecommerse #firebase #axios #reactRouting #experience #thankyou #project #commerce #comment #like #grateful #github #live #demo #repo
+
+
+
 ## Learn More
 
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).

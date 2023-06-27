@@ -110,20 +110,17 @@ export const Codding = () => {
       let list = [];
       const querySnapshot = await getDocs(collection(db, "productMessages"));
       querySnapshot.forEach((doc) =>{
-       list.push({ id: doc.id, ...doc.data() })
+       list.push({ id: +doc.id, ...doc.data() })
       });
-    let productsM=list.map((a) =>
-      [...list1, ...list2, ...list3].map((e) => {
-          if(a.id === e.id){
-            return({ ...e, messages: a.messages })
-          }else if(a.id !== e.id){
-            return({ ...e, messages: [] })
-          }
-          return 0;
-        })
-        )
-        let [a,b]=productsM;
-        let products= a.map((e,i)=>e.messages.length!==0?e:b[i])
+      let productsList=[...list1, ...list2, ...list3].map(e=>({...e,messages:[]}))
+      let products=productsList.map((e) =>{
+        let PM=list.filter(a=>+a.id===+e.id)[0]
+        if (PM!==undefined) {
+          return {...e,messages:PM.messages}
+        }else{
+          return e
+        }
+      });
       dipatch({ type: getAllProductOnDatabase, products: products });
     };
     GetAllProducts();

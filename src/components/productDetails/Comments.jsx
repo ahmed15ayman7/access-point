@@ -34,7 +34,7 @@ export const Comments = ({product}) => {
             fullHours=parseInt(fullMinutes/60)===0?'':parseInt(fullMinutes/60);
             fullDay=parseInt(fullHours/24)===0?'':parseInt(fullHours/24);
             fullYear=parseInt(fullHours/365.25)===0?'':parseInt(fullHours/365.25);
-            let fullTime=(fullYear===''?'':fullYear+'y : ')+(fullDay===''?'':fullDay+'d : ')+(fullHours===''?'':fullHours>=24?fullHours%24+'h : ':fullHours+'h : ')+(fullMinutes===''?'':fullMinutes>=60?fullMinutes%60+'m ':fullMinutes+'m ')
+            let fullTime=(fullDay===''?'':fullDay+'d : ')+(fullHours===''?'':fullHours>=24?fullHours%24+'h : ':fullHours+'h : ')+(fullMinutes===''?'':fullMinutes>=60?fullMinutes%60+'m ':fullMinutes+'m ')
             return(<Col lg={7} key={i} md={9} sm={11} style={{display:'flex',position:'relative',justifyContent:'space-between',background:'#ffffff',borderRadius:'25px',height:'auto',alignItems:'center'}} className='mt-5 p-1'>
             <div style={{borderRight:'2px solid #1286a3'}} className='imgUser me-3'>
             <Image src={image[i]!==undefined?image[i]:e.image!==''?e.image:logo} style={{width:'50px',height:'50px',border:'2px solid #024d76',}} className='me-3 mt-1 ms-1' roundedCircle fluid/>
