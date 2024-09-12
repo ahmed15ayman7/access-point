@@ -50,37 +50,37 @@ export const Codding = () => {
       });
 
       let list2 = [];
-      const response = await axios.get(
-        "https://route-ecommerce.onrender.com/api/v1/products"
-      );
-      response.data.data.forEach((e, i) => {
-        let {
-          _id,
-          images,
-          category,
-          ratingsQuantity,
-          title,
-          description,
-          price,
-          ratingsAverage,
-        } = e;
-        let catSlice = category.name.includes("-")
-          ? category.name.split("-")[0]
-          : category.name.split(" ")[0];
-        list2.push({
-          id: i + 21,
-          title: title,
-          price: price,
-          description: description,
-          category: catSlice.toLowerCase(),
-          image: images[0],
-          rating: {
-            rate: ratingsAverage,
-            count: ratingsQuantity,
-          },
-          api:{url:"https://route-ecommerce.onrender.com/api/v1/products",name:'route-ecommerce',uid:_id}
-        });
-      });
+      // const response = await axios.get(
+      //   "https://route-ecommerce.onrender.com/api/v1/products"
+      // );
+      // response.data.data.forEach((e, i) => {
+      //   let {
+      //     _id,
+      //     images,
+      //     category,
+      //     ratingsQuantity,
+      //     title,
+      //     description,
+      //     price,
+      //     ratingsAverage,
+      //   } = e;
+      //   let catSlice = category.name.includes("-")
+      //     ? category.name.split("-")[0]
+      //     : category.name.split(" ")[0];
+      //   list2.push({
+      //     id: i + 21,
+      //     title: title,
+      //     price: price,
+      //     description: description,
+      //     category: catSlice.toLowerCase(),
+      //     image: images[0],
+      //     rating: {
+      //       rate: ratingsAverage,
+      //       count: ratingsQuantity,
+      //     },
+      //     api:{url:"https://route-ecommerce.onrender.com/api/v1/products",name:'route-ecommerce',uid:_id}
+      //   });
+      // });
 
       let list3 = [];
       const response2 = await axios.get(
